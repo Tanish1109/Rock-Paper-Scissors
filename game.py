@@ -197,9 +197,10 @@ footer.pack(pady=5)
 names_frame = tk.Frame(root, bg="#222831")
 names_frame.place(relx=0.85, rely=0.8)
 
-students = ["CK", "TANISH SHETH", "SUMANTH A S", "SHIVAGANESH"]
+students = ["CK", "TANISH SHETH", "SUMANTH A S"]
 for name in students:
     tk.Label(names_frame, text=name, font=("Cambria", 12, "bold"), fg="#EEEEEE", bg="#222831").pack(anchor="e")
 
 # --- Mainloop ---
 root.mainloop()
+
